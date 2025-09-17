@@ -1,0 +1,67 @@
+/*둥둥 떠댕기는 것들*/
+
+.floating-banner {
+  background-color: brown;
+}
+
+.quick-menu {
+  width: 80px;
+  background-color: rgba(220, 220, 220, 0.497);
+
+  /* 오른쪽 끝에 붙임 */
+  position: fixed;
+  right: 0;
+
+  /* 맨 위에서 15% 지점에 */
+  top: 15%;
+
+  /*맨 위에서 떠댕겨야 하기에*/
+  z-index: 999;
+
+  font-size: larger;
+  text-align: center;
+}
+.quick-menu:hover {
+  width: 150px;
+  background-color: gainsboro;
+
+  /* 오른쪽 끝에 붙임 */
+  position: fixed;
+  right: 0;
+
+  /* 맨 위에서 15% 지점에 */
+  top: 15%;
+
+  /*맨 위에서 떠댕겨야 하기에*/
+  z-index: 999;
+}
+
+.quick-menu h3 {
+  font-size: 16px;
+}
+
+.quick-menu-item {
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin: 10px;
+}
+
+.quick-menu-icon {
+  background-color: lightgray;
+}
+
+.top {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  color: black;
+  text-decoration: none;
+  padding: 2px;
+
+  /*맨 위에서 떠댕겨야 하기에*/
+  z-index: 999;
+
+  font-size: 40px;
+  background-color: lightskyblue;
+  color: white;
+}

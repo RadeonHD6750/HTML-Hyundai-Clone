@@ -1,0 +1,58 @@
+/*전기차인데 맘에 안들어서 엔진으로함*/
+
+.engine-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.engine-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 1050px;
+}
+
+.engine-intro {
+  width: 700px;
+  height: 500px;
+  background-color: #f6f3f2;
+}
+
+.engine-carousel-wrapper {
+  width: 300px;
+  height: 500px;
+  background-color: #f6f3f2;
+}
+
+.engine-cover {
+  background-image: url("../img/감마엔진.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  width: 700px;
+  height: 300px;
+}
+
+.engine-cover h2,
+p {
+  background-color: black;
+  color: white;
+  opacity: 0.7;
+
+  padding: 20px;
+}
+
+.engine-cover a {
+  color: white;
+}
+
+.engine-description {
+  background-color: #f6f3f2;
+}
